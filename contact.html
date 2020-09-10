@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>About - Christopher Cruzcosa</title>
+    <title>Contact - Christopher Cruzcosa</title>
 </head>
 
 <body>
@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ml-auto d-flex flex-row-reverse ">
                         <li class="nav-item active">
-                            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="./index.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -41,33 +41,35 @@
 
         <br><br>
 
-        <!-- The  -->
+        <!-- The contact form with inputs for Name, Email, and a Message  -->
         <main>
             <div class="row">
-                <div class="col-lg">
+                <div class="col-lg-9">
                     <div class="card border-light">
                         <div class="card-body mb-3">
-                            <h1 class="card-title">About Me</h1>
+                            <h1 class="card-title">Contact</h1>
                             <br>
-                            <p class="float-left">
-                                <img class="img-fluid float-left mr-5 mb-3" src="./Assets/headshot-a.jpg"
-                                    alt="Responsive image/headshot" style="width: 50%; height: 50%;">
-                                An IT professional with over 12 years of work experience, primarily in
-                                the public service sector,
-                                who recently moved to San Diego from New York City. Also, I hold a B.A. from NYU in
-                                Economics and am a four year US Army veteran.
-                                Currently enrolled in a Fullstack Web Development Bootcamp, through UC San Diego.
-                                <br><br>
-                                I expect
-                                to
-                                graduate in late Nov, 2020 and afterwards I'm eager to dive into the web development job space.
-                                Full-time positions and freelance work equally welcome.
-                            </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Type a short message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="background-color: rgb(50, 168, 168); border-color: rgb(50, 168, 168);">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
+
     </div>
 
     <!-- A responsive footer that contains my copyright information -->

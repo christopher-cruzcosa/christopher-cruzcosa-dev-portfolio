@@ -36,7 +36,7 @@ h1 {
 }
 
 /* This sets the color scheme and affixs the footer to the bottom of the page */
-.footer {
+.footerMod {
     position: fixed;
     bottom: 0;
     width: 768px;
@@ -66,7 +66,7 @@ h1 {
 
 }
 /* This also ensures the footer scales down as the viewport goes down below 768px*/
-.footer{
+.footerMod{
     width:75%
 }
   }
@@ -87,7 +87,7 @@ h1 {
 
 }
 /* This also ensures the footer scales down as the viewport goes down below 400px*/
-.footer{
+.footerMod{
     width:100%
 }
 

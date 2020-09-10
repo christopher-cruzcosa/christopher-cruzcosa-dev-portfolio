@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 768px;
+    margin: 10px auto;
+
+}
+
+body {
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+  }
+
+h1 {
+
+    border-bottom-width: 1px;
+    border-bottom-color:rgb(165, 159, 159);
+    border-bottom-style: solid;
+    color: rgb(50, 168, 168);
+}
+
+.navbar-brand {
+
+    
+    background-color: rgb(50, 168, 168);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 768px;
+    background-color:rgb(27, 49, 49);
+    color: rgb(223, 211, 211);
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-top-color: rgb(50, 168, 168);
+   
+  }
+
+
+@media screen and (max-width: 768px) {
+    /* The wrapper's width will be 600px */
+.wrapper {
+  width: 100%;
+
+}
+.footer{
+    width:100%
+}
+  }
+
+@media screen and (max-width: 400px) {
+.wrapper {
+  width: 100%;
+  margin: 2px 2px;
+
+}
+.footer{
+    width:100%
+}
+  
+ .main-content1 {
+    margin: 50px auto;
+    float: none;
+    padding: 10px;
+    width: 100%
+}
+  }

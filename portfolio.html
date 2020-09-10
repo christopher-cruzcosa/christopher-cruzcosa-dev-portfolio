@@ -6,38 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Portfolio - Christopher Cruzcosa</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>About - Christopher Cruzcosa</title>
 </head>
 
 <body>
-    <section class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">Christopher Cruzcosa</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- A wrapper that encompasses both the header and the main content -->
+    <div class="wrapper">
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 d-flex flex-row-reverse bd-highlight">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+
+        <!-- A responsive Navbar, linking to the other pages on this site -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand text-white" href="./index.html">Christopher Cruzcosa</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto d-flex flex-row-reverse ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <br><br>
+
+        <!-- The  -->
+        <main>
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card border-light">
+                        <div class="card-body mb-3">
+                            <h1 class="card-title">About Me</h1>
+                            <br>
+                            <p class="float-left">
+                                <img class="img-fluid float-left mr-5 mb-3" src="./Assets/headshot-a.jpg"
+                                    alt="Responsive image/headshot" style="width: 50%; height: 50%;">
+                                An IT professional with over 12 years of work experience, primarily in
+                                the public service sector,
+                                who recently moved to San Diego from New York City. Also, I hold a B.A. from NYU in
+                                Economics and am a four year US Army veteran.
+                                Currently enrolled in a Fullstack Web Development Bootcamp, through UC San Diego.
+                                <br><br>
+                                I expect
+                                to
+                                graduate in late Nov, 2020 and afterwards I'm eager to dive into the web development job space.
+                                Full-time positions and freelance work equally welcome.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
+        </main>
+    </div>
 
-        <section>
-            <p>Portfolio</p>
-        </section>
-
-    </section>
+    <!-- A responsive footer that contains my copyright information -->
+    <footer>
+        <div  class="wrapper">       
+            <footer class="container footer align-text-bottom">
+                <p style= "opacity: 50%;">&#169 Copyright 2020 Christopher Cruzcosa</p>
+            </footer>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -53,14 +53,14 @@ h1 {
     width: 50%;
 
 }
-  }
+
 
   /* This removes the float from the Portfolio images so they stop floating and each image takes up a full row */
   .imageGallery {
     float: none;
     width: 100%;
 }
-
+}
 
 @media screen and (max-width: 400px) {
 

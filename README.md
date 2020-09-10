@@ -14,13 +14,13 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 ## Usage 
 
 
-![alt text](./assets/screenshot1.png)
+![alt text](https://github.com/christopher-cruzcosa/personal-portfolio/blob/master/Assets/screenshot1.png)
 
 
 
 This site is meant to be web accessible and the user should be able to navigate between the three main html pages.
 
-Location: https://christopher-cruzcosa.github.io/personal-portfolio/
+Website Address: https://christopher-cruzcosa.github.io/personal-portfolio/
 
 
 ## Credits

@@ -75,7 +75,7 @@ h1 {
 /* This also ensures the page scales down as the viewport goes down below 400px*/
 .wrapper {
   width: 100%;
-  margin: 2px 2px;
+  margin: 2px auto;
 
 }
 

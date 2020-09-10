@@ -13,7 +13,10 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 
 ## Usage 
 
-<img src="./assets/screenshot1.png" alt="website screenshot">
+
+![alt text](./assets/screenshot1.png)
+
+
 
 This site is meant to be web accessible and the user should be able to navigate between the three main html pages.
 

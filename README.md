@@ -20,7 +20,7 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 
 This site is meant to be web accessible and the user should be able to navigate between the three main html pages.
 
-Website Address: https://christopher-cruzcosa.github.io/personal-portfolio/
+Website Address: https://christopher-cruzcosa.github.io/christopher-cruzcosa-dev-portfolio/
 
 
 ## Credits

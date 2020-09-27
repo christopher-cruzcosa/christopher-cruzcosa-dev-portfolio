@@ -14,7 +14,7 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 ## Usage 
 
 
-![alt text](https://github.com/christopher-cruzcosa/personal-portfolio/blob/master/Assets/screenshot1.png)
+![alt text](./assets/images/screenshot1.png)
 
 
 

@@ -13,8 +13,8 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 
 ## Usage 
 
-
-!page screenshot./assets/images/screenshot1.png
+![]()
+![page screenshot](./assets/images/screenshot1.png)
 
 
 

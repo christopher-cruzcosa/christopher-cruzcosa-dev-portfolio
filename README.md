@@ -1,4 +1,4 @@
-# personal-portfolio
+# christopher-cruzcosa-dev-portfolio
 A portfolio of my web development projects.
 
 ## Description 

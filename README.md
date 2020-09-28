@@ -1,5 +1,5 @@
-# personal-portfolio
-A portfolio of my web development projects.
+# christopher-cruzcosa-dev-portfolio
+A portfolio of web development projects.
 
 ## Description 
 
@@ -13,7 +13,6 @@ This project is made up of three primary HTML pages (Index, Contact, Portfolio),
 
 ## Usage 
 
-![]()
 ![page screenshot](./assets/images/screenshot1.png)
 
 

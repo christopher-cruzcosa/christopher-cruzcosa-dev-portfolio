@@ -3,7 +3,7 @@ A portfolio of web development projects.
 
 ## Description 
 
-A website for my contact information, basic biography, and a portfolio of my web development projects.
+A website for my contact information, basic biography, resume, and a portfolio of my web development projects.
 
 
 ## Installation
